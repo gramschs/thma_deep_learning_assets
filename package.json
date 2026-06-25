@@ -1,0 +1,32 @@
+{
+  "name": "thma_deep_learning_assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "node scripts/build.js && python3 scripts/generate_index.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gramschs/thma_deep_learning_assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gramschs/thma_deep_learning_assets/issues"
+  },
+  "homepage": "https://github.com/gramschs/thma_deep_learning_assets#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte": "^5.56.4",
+    "vite": "^8.1.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  },
+  "dependencies": {
+    "katex": "^0.17.0"
+  }
+}
